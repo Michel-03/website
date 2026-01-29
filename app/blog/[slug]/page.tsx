@@ -1,6 +1,7 @@
 import { blogs } from "@/data/blogs";
 import BlogDetail from "@/components/blogs/BlogDetail";
 import { notFound } from "next/navigation";
+import { siteConfig } from "@/data/site";
 
 export async function generateMetadata({
   params,
@@ -19,13 +20,15 @@ export async function generateMetadata({
   return {
     title: blog.seoTitle || blog.title,
     description: blog.seoDescription || blog.excerpt,
+
     openGraph: {
       title: blog.seoTitle || blog.title,
       description: blog.seoDescription || blog.excerpt,
-      url: `https://yourdomain.com/blog/${blog.slug}`,
+      url: `${siteConfig.url}/blog/${blog.slug}`, // ✅ REAL URL
+      type: "article",
       images: [
         {
-          url: blog.coverImage,
+          url: `${siteConfig.url}${blog.coverImage}`, // ✅ ABSOLUTE IMAGE URL
           width: 1200,
           height: 630,
           alt: blog.title,
@@ -41,5 +44,9 @@ export default async function BlogDetailPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
+  const blog = blogs.find((b) => b.slug === slug);
+
+  if (!blog) return notFound();
+
   return <BlogDetail slug={slug} />;
 }

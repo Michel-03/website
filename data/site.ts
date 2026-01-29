@@ -1,4 +1,4 @@
 export const siteConfig = {
   name: "Byte Analytics",
-  url: "https://byte-analytics.vercel.app", // OR your vercel URL
+  url: "https://website-001-check-git-main-michel-03s-projects.vercel.app", // OR your vercel URL
 };
