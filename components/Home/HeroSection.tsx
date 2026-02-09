@@ -47,7 +47,7 @@ export default function HeroSection() {
             {/* Right Image */}
             <div className="relative hidden md:flex flex justify-center items-center">
                 <Image
-                    src="/home1.png"
+                    src="/byte_home.png"
                     alt="AI Consultancy Illustration"
                     width={500}
                     height={500}
