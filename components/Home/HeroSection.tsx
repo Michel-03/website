@@ -6,11 +6,11 @@ export default function HeroSection() {
             {/* Left Content */}
             <div>
                 <h1 className="font-[100] text-2xl text-gray-800">
-                    Empowering Businesses with <span className="font-bold text-teal-400 ">Trusted AI </span>
+                    Empowering Businesses with <span className="font-bold text-teal-400 "> AI </span>
                 </h1>
 
                 <p className="mt-4 text-xl font-semibold text-gray-400">
-                    Expert AI Consultancy Since 2019.
+                    Expert in AI Consultancy Since 2019.
                 </p>
 
                 <p className="mt-3 text-gray-500 text-sm">
