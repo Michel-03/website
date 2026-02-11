@@ -5,45 +5,45 @@ import { Linkedin } from "lucide-react";
 
 const teamMembers = [
   {
-    name: "Kasia Borowska",
-    role: "Managing Director. MSc in Cognitive Science, BSc in Maths",
+    name: "Sriram Reddy Muli",
+    role: "Founder & Ex-Microsoft",
     image: "/team/gen.jpg",
-    linkedin: "#",
+    linkedin: "https://www.linkedin.com/in/sriram-reddy-3b5128154/",
   },
   {
-    name: "Dr. Peter Bebbington",
+    name: "Ambati Manoj Kumar",
     role:
-      "CTO, PhD in Physics and Astronomy MRes in Financial Computing, MSc Complex Systems, MPhys Physics",
+      "Director",
     image: "/team/gen.jpg",
     linkedin: "#",
   },
-  {
-    name: "Philip Treleaven",
-    role:
-      "Professor & Director of UK Financial Computing Centre at University College London",
-    image: "/team/gen.jpg",
-    linkedin: "#",
-  },
-  {
-    name: "Osama Ishtaiwi",
-    role:
-      "Diagnostic Cardiology Modality Manager Middle East, Africa, Turkey & Central Asia",
-    image: "/team/gen.jpg",
-    linkedin: "#",
-  },
-  {
-    name: "Martin Ward",
-    role:
-      "Head of Business Development & Innovation EMEA, Oracle",
-    image: "/team/gen.jpg",
-    linkedin: "#",
-  },
-  {
-    name: "Moritz Haller",
-    role: "Backend Developer",
-    image: "/team/gen.jpg",
-    linkedin: "#",
-  },
+  // {
+  //   name: "Philip Treleaven",
+  //   role:
+  //     "Professor & Director of UK Financial Computing Centre at University College London",
+  //   image: "/team/gen.jpg",
+  //   linkedin: "#",
+  // },
+  // {
+  //   name: "Osama Ishtaiwi",
+  //   role:
+  //     "Diagnostic Cardiology Modality Manager Middle East, Africa, Turkey & Central Asia",
+  //   image: "/team/gen.jpg",
+  //   linkedin: "#",
+  // },
+  // {
+  //   name: "Martin Ward",
+  //   role:
+  //     "Head of Business Development & Innovation EMEA, Oracle",
+  //   image: "/team/gen.jpg",
+  //   linkedin: "#",
+  // },
+  // {
+  //   name: "Moritz Haller",
+  //   role: "Backend Developer",
+  //   image: "/team/gen.jpg",
+  //   linkedin: "#",
+  // },
 ];
 
 

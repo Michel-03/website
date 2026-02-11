@@ -14,7 +14,7 @@ export default function Inhouse() {
             </div>
             <div className="relative max-w-[75%] mx-auto px-4">
                 <Image
-                    src="/images/inhouse.jpg"
+                    src="/inhouse_intelligence.png"
                     alt="Inhouse AI Platform Illustration"
                     width={800}
                     height={500}

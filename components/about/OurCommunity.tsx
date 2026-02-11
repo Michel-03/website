@@ -3,32 +3,33 @@ import { BarChart2, Code2, Cog, RefreshCcw, Atom } from "lucide-react";
 
 const roles = [
     {
-        icon: <BarChart2 size={40} strokeWidth={1.5} className="text-purple-600"/>,
-        title: "Research Scientist",
-        subtitle: "Research academic literature",
-        description: "Ideate new theories and problem-solving methods. Publish work reflecting theories and potential opportunities."
-    },
-    {
     icon: <Atom size={40} strokeWidth={1.5} className="text-purple-600" />,
     title: "Data Scientists",
     subtitle: "Review relevant data sources and finds correlations.",
     description:
       "Builds models that produce a predictive signal as an output of data analysis.",
-  },
-  {
-    icon: <Code2 size={40} strokeWidth={1.5} className="text-purple-600" />,
-    title: "Software Engineers",
-    subtitle: "Convert code created by data scientist into production grade code.",
-    description:
-      "Create an application that is secure, runs fast and is scalable along the production pipeline.",
-  },
-  {
+    },
+    {
     icon: <Cog size={40} strokeWidth={1.5} className="text-purple-600" />,
     title: "Data Engineers",
     subtitle:
       "Create and connect data pipelines to all relevant data sources identified by the data scientist.",
     description:
       "Transform data into relevant format to get it ready for AI.",
+    },
+    {
+        icon: <BarChart2 size={40} strokeWidth={1.5} className="text-purple-600"/>,
+        title: "Research Scientist",
+        subtitle: "Research academic literature",
+        description: "Ideate new theories and problem-solving methods. Publish work reflecting theories and potential opportunities."
+    },
+
+  {
+    icon: <Code2 size={40} strokeWidth={1.5} className="text-purple-600" />,
+    title: "Automation & Integration Engineers",
+    subtitle: "A UiPath Engineer is responsible for the end-to-end design",
+    description:
+      "A UiPath Engineer is responsible for the end-to-end design, development, and deployment of software robots that mimic human actions to perform repetitive tasks.",
   },
   {
     icon: <RefreshCcw size={40} strokeWidth={1.5} className="text-purple-600" />,

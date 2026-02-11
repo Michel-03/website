@@ -22,7 +22,7 @@ export default function Aicomponent() {
                 {/* IMAGE */}
                 <div className="mt-10 flex justify-center">
                     <Image
-                        src="/Ai.png"
+                        src="/Ai_com.png"
                         alt="AI Components Illustration"
                         width={600}
                         height={500}
