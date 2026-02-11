@@ -14,7 +14,7 @@ export default function HeroSection() {
             
           </h1>
            <h2 className="text-lg text-gray-500 font-bold mt-2">Artificial Intelligence Applied in the Construction Industry</h2>
-            <p className="text-sm text-gray-500 mt-2">Byte Analytics is proud to be recognised as the world’s leading AI services providers in the construction sector. We have been building custom AI solutions in construction since 2018.</p>
+            <p className="text-sm text-gray-500 mt-2">Byte Analytics is proud to be recognised as the world’s leading AI services providers in the construction sector. We have been building custom AI solutions in construction since 2019.</p>
             <p className="text-sm text-gray-500 font-thin mt-2">AI and Machine Learning presents new and exciting opportunities for automation and optimisation of your key workflows to support you during the times of workforce shortage. From construction design, through to planning, management and development. Byte Analytics is already a pioneer in revolutionising the timber design industry with Genetic Programming (see daisy.ai) and we are helping construction companies adapt to the fast changing industry.
 
             </p>

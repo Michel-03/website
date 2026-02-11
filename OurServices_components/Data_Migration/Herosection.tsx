@@ -10,9 +10,9 @@ export default function HeroSection() {
         {/* LEFT CONTENT */}
         <div className="w-full md:w-1/2 text-left">
           <h1 className="text-xl sm:text-3xl lg:text-4xl font-light text-gray-400 leading-snug">
-            Automated Data Digitization and Structuring
+            Data Migration & Engineering
             {/* <h2 className="text-lg text-gray-500 font-bold mt-2">We are hiring !</h2> */}
-            <p className="text-sm text-gray-500 mt-2">The majority of the worlds’ data is unstructured and companies are overflowing with unstructured data: from emails, documents, images, presentations, even handwritten notes. </p>
+            {/* <p className="text-sm text-gray-500 mt-2">The majority of the worlds’ data is unstructured and companies are overflowing with unstructured data: from emails, documents, images, presentations, even handwritten notes. </p> */}
             <p className="text-sm text-gray-500 font-thin mt-2"> The variety of formats in which data is stored represents a bottleneck in effective data management. By using AI/ML to structure and store data, this data can be used to automate reporting, analysis and compliance procedures: making your business operations more streamlined and enabling you to make more informed business decisions faster.
             </p>
           </h1>

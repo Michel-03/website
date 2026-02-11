@@ -13,7 +13,7 @@ export default function HeroSection() {
             AI Consulting for <span className="text-teal-600 text-4xl font-bold">  Business Growth</span>
             {/* <h2 className="text-lg text-gray-500 font-bold mt-2">We are hiring !</h2> */}
             <p className="text-sm text-gray-500 mt-2">Since 2019, Byte Analytics has helped businesses navigate AI with expert consulting and practical guidance. Speak with our AI and ML specialists to address your most critical challenges.</p>
-            <p className="text-sm text-gray-500 font-thin mt-2">Byte Analytics brings together 500+ AI and ML specialists offering expert guidance across diverse AI domains. This page highlights their core capabilities.
+            <p className="text-sm text-gray-500 font-thin mt-2">Byte Analytics brings together AI and ML specialists offering expert guidance across diverse AI domains. This page highlights their core capabilities.
 
             </p>
           </h1>
